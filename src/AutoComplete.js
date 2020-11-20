@@ -17,7 +17,7 @@ export default function Complete() {
 
   };
   const onClickSearch = () => {
-    history.push(`/ywc/?q=${search}&&category=&&priceLevel=&&provice=&&subCategory=`)
+    history.push(`/ywc18/?q=${search}&&category=&&priceLevel=&&provice=&&subCategory=`)
   }
 
   return (

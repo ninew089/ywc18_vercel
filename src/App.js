@@ -18,9 +18,8 @@ function App() {
   const [provice, setProvice] = useState('ทั้งหมด');
   const [value, setValue] = useState(0)
   const [subCategory, setSubCategory] = useState('ทั้งหมด');
-  const refreshPage = () => {
-    window.location.reload(false)
-  }
+
+
   return (
     <Layout>
       <div style={{ zIndex: 0, width: '100%', background: "white", alignItems: "center", paddingTop: 14, paddingBottom: 10 }}>
@@ -47,7 +46,7 @@ function App() {
 
       <Content className="site-layout" style={{ background: "#273a7c" }}>
         <div style={{ paddingLeft: '100px', margin: '0.5rem 0.8rem', color: "white", fontSize: 16 }}>
-          <div style={{ textDecoration: "underline", display: 'inline', marginRight: '4px' }} onClick={refreshPage}>หน้าแรก</div>
+          <div style={{ textDecoration: "underline", display: 'inline', marginRight: '4px' }} >หน้าแรก</div>
            /
           <div style={{ color: "white", display: 'inline', marginLeft: '4px', fontWeight: 600 }}>ค้นหา</div>
 

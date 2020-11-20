@@ -16,6 +16,8 @@ ReactDOM.render(
         <Route path='/'>
           <App />
         </Route>
+
+
       </Switch>
 
     </BrowserRouter>

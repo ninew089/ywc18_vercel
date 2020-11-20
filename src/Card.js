@@ -33,7 +33,7 @@ export default function Content({ value, setValue, price, setPrice, provice, set
 
       setSub(result.data.subcategoryName)
     };
-    history.push(`/ywc/seacrh?q=&&category=${value}&&priceLevel=${price}&&provice=${provice}&&subCategory=${subCategory}`)
+    history.push(`/ywc18/seacrh?q=&&category=${value}&&priceLevel=${price}&&provice=${provice}&&subCategory=${subCategory}`)
     // eslint-disable-next-line
 
     setProvice1(provice)
